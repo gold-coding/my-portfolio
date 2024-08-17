@@ -9,7 +9,7 @@ import Image from "next/image";
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
 
-  const handleSubmit = async (e) => {
+  /*const handleSubmit = async (e) => {
     e.preventDefault();
     const data = {
       email: e.target.email.value,
@@ -39,7 +39,7 @@ const EmailSection = () => {
       setEmailSubmitted(true);
     }
   };
-
+  */
   return (
     <section
       id="contact"
