@@ -71,7 +71,7 @@ const EmailSection = () => {
             Email sent successfully!
           </p>
         ) : (
-          <form className="flex flex-col" onSubmit={handleSubmit}>
+          <form className="flex flex-col"/* onSubmit={handleSubmit}*/>
             <div className="mb-6">
               <label
                 htmlFor="email"
